@@ -1,0 +1,18 @@
+---
+layout: default
+---
+{%- include header.html -%}
+
+<!-- Main -->
+<div id="main">
+	<!-- Page --> 
+	<article class="shade-two">
+	  <div class="container">
+			<header>
+				<h3>{{- page.title -}}</h3>
+				{%- if page.subtitle -%}<h5>{{- page.subtitle -}}</h5>{%- endif -%}
+			</header>
+	    {{- content -}}
+	  </div>
+	</article>
+</div>
