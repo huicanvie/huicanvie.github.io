@@ -62,7 +62,7 @@
 	body {
 		background: #fff;
 		font-family: 'Source Sans Pro', sans-serif;
-		font-size: 19pt;
+		font-size: 17pt;
 		font-weight: 300;
 		line-height: 1.75em;
 		color: #888;
@@ -161,7 +161,7 @@
 		border-color: rgba(0, 0, 0, 0.2);
 		border-radius: 4px;
 		font-family: "Courier New", monospace;
-		font-size: 0.9em;
+		font-size: 0.8em;
 		padding: 0.25em 0.325em;
 	}
 
@@ -180,9 +180,9 @@
 	}
 
 	blockquote {
-		margin-left: 1em;
-		border-left: solid 0.5em #ddd;
-		padding: 1em 0 1em 2em;
+    margin: 10px 0;
+		border-left: solid 0.3em #9ececc;
+		padding: 0 0 0 0.3em;
 		font-style: italic;
 	}
 
