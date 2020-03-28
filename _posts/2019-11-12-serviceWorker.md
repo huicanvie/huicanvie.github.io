@@ -5,7 +5,7 @@ layout: post
 ---
 
 ```text
-   主要介绍了service worker的几个关键生命周期，有简单的示例代码
+主要介绍了service worker的几个关键生命周期，有简单的示例代码
 ```
 
 ## 概念
@@ -63,7 +63,7 @@ self.addEventListener('install', function(event) {
 ```
 
 ### 参考
-
+```
 摘自MDN 》》
 
 用户首次访问service worker控制的网站或页面时，service worker会立刻被下载。
@@ -85,3 +85,4 @@ self.addEventListener('install', function(event) {
 
 Servcie worker可以通过 FetchEvent 事件去响应请求。通过使用 FetchEvent.respondWith 方法，你可以任意修改对于这些请求的响应。
 https://developer.mozilla.org/zh-CN/docs/Web/API/Service_Worker_API
+```
