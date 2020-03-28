@@ -31,7 +31,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: huicanvie技术小屋
-subtitle: 每天一点点进步
+subtitle: 每天进步一点点
 description: 在这里记录自己的所学所想，感悟，便于自己不断进步 ❤
 author: huicanvie
 email: 81681445@qq.com
